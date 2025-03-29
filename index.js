@@ -8,7 +8,7 @@ require("dotenv").config();
 const cors=require("cors");
 
 const corsOptions={
-    origin:"http://localhost:5173",
+    origin:"https://task31-frontend-six.vercel.app",
     method:"GET,POST,PUT,PATCH,DELETE",
     Credentials:true
 }
